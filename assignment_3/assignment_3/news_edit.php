@@ -39,7 +39,7 @@ if (isset($_POST['id'])){
     <div class="row wp-row">
         <div class="col-md-12">
             <h1>Edit a news item</h1>
-            <p>Below you can edit the title or the content of the article. </p>
+            <p>Change the title or content of a article below</p>
             <br />
             <form action="scripts/edit_item.php" method="POST">
                 <div class="form-group">

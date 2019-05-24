@@ -35,8 +35,8 @@ include __DIR__ . '/tpl/body_start.php';
             </p>
             <p>
                 <?php
-                if ($_POST['inputAge'] != "") {
-                    echo 'The next 5 leap years, this will be your age: 
+                    if ($_POST['inputAge'] != "") {
+                        echo 'The next 5 leap years, this will be your age: 
                         <table class="table table-striped">
                             <thead>
                                 <tr>
@@ -67,7 +67,7 @@ include __DIR__ . '/tpl/body_start.php';
                                 </tr>
                             </tbody>
                             </table>';
-                }
+                    }
                 ?>
             </p>
             <script type="application/javascript" src="scripts/leapyear.js"></script>
